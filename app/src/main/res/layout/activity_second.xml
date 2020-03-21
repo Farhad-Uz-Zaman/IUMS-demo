@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f3b52"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/custom_edit_text_bg"
+                android:drawableLeft="@drawable/username"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/userid"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/password"
+
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/username"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userid"
+                android:layout_marginTop="20dp"
+                android:text="Select your Department"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_centerHorizontal="true"
+
+                />
+            <CheckBox
+                android:id="@+id/cse"
+                android:layout_below="@id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE"
+
+                />
+
+            <CheckBox
+                android:id="@+id/cv"
+                android:layout_below="@id/cse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIVIL"
+
+                />
+            <CheckBox
+                android:id="@+id/me"
+                android:layout_below="@id/cv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MECHANICAL"
+
+                />
+            <CheckBox
+                android:id="@+id/eee"
+                android:layout_below="@id/me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EEE"
+
+                />
+
+            <TextView
+                android:id="@+id/radioTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/me"
+                android:layout_marginTop="20dp"
+                android:text="Select your Semester"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <RadioGroup
+                android:layout_below="@id/radioTxt"
+                android:id="@+id/radioGrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.1"
+
+
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.2"
+
+
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.1"
+
+
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.2"
+
+
+                    />
+
+            </RadioGroup>
+
+
+
+
+            <TimePicker
+                android:id="@+id/timePicker1"
+                android:layout_below="@id/radioGrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_below="@id/timePicker1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+            <Button
+                android:id="@+id/back"
+                android:layout_below="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:onClick="Back"
+                android:background="@drawable/custom_edit_text_bg"
+
+
+                />
+
+            <Button
+                android:id="@+id/proceed"
+                android:layout_toRightOf="@+id/back"
+                android:layout_below="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:onClick="Proceed"
+                android:background="@drawable/custom_edit_text_bg"
+
+
+                />
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

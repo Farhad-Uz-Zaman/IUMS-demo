@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f3b52"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/namegap"
+
+        android:layout_height="25dp"
+        android:layout_width="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Student Name:"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/idgap"
+        android:layout_below="@+id/namegap"
+        android:layout_height="25dp"
+        android:layout_width="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="ID :"
+
+        />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_height="25dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/namegap"
+        />
+
+    <TextView
+        android:id="@id/userid"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_toRightOf="@+id/idgap"
+        android:layout_below="@+id/namegap"
+
+        android:textSize="20dp"
+
+
+
+        />
+
+
+<TableLayout
+    android:id="@+id/table"
+    android:layout_below="@+id/idgap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    >
+
+    <TableRow
+        android:id="@+id/titleRowId"
+        android:layout_marginTop="20dp"
+        >
+     <TextView
+         android:textSize="30sp"
+         android:layout_span="4"
+         android:layout_gravity="center"
+         android:textStyle="bold"
+         android:text="Fall-2019 GradeSheet"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+
+
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:id="@+id/headerId"
+        android:background="#109DAC"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Course Name"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Course Title"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Marks"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Grade    "
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4Id"
+        android:background="#9E031A"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2202"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="NUMERIC"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="81"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A+"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3Id"
+        android:background="#1006AA"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2201"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="ALGORITHM"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="78"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row6Id"
+        android:background="#1006AA"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="MATH2201"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="MATHEMATICS-3"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="76"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/row7Id"
+        android:background="#551EB9"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2207"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CA"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="72"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A-"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5Id"
+        android:background="#9E031A"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2204"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="DLD"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="83"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A+"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+    <TableRow
+        android:id="@+id/ro4Id"
+        android:background="#9E031A"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2212"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="DLD LAB"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="81"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A+"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ro3Id"
+        android:background="#1006AA"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2211"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="ALGORITHM LAB"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="78"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ro6Id"
+        android:background="#1006AA"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2121"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="ASSEMBLY"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="76"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/ro7Id"
+        android:background="#551EB9"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2212"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CA LAB"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="72"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A-"
+            android:layout_height="30dp"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ro5Id"
+        android:background="#9E031A"
+        >
+
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CSE2209"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="NUM LAB"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="83"
+            android:layout_height="30dp"
+
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="A+"
+            android:layout_height="30dp"
+
+            />
+    </TableRow>
+
+</TableLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_below="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="Back"
+        android:background="@drawable/custom_edit_text_bg"
+
+
+        />
+
+
+
+
+
+</RelativeLayout>

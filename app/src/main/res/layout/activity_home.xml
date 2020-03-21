@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f3b52"
+    android:orientation="horizontal"
+    tools:context=".HomeActivity">
+
+
+
+<RelativeLayout
+    android:id="@+id/sideRelative"
+    android:background="#108897"
+    android:layout_width="130dp"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="10dp"
+    android:text="AUST"
+    android:textSize="45dp"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+
+
+    />
+
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Profile"
+        android:layout_centerVertical="true"
+        android:onClick="Profile"
+        android:background="@drawable/custom_edit_text_cp"
+
+
+        />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_below="@+id/profile"
+        android:text="Result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="Result"
+        android:background="@drawable/custom_edit_text_cp"
+
+
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:onClick="Logout"
+        android:text="LogOut"
+        android:background="@drawable/custom_edit_text_cp"
+        />
+
+
+</RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/home"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
