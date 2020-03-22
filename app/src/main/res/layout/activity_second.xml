@@ -16,39 +16,83 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/username"
+            <RelativeLayout
+                android:id="@+id/rlayout"
                 android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:background="#0dd"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Yout Acount"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/gap"
+                android:layout_below="@+id/rlayout"
+                android:layout_width="500dp"
+                android:layout_height="50dp"
+
+           />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="170dp"
                 android:layout_height="40dp"
-                android:paddingBottom="10dp"
                 android:background="@drawable/custom_edit_text_bg"
-                android:drawableLeft="@drawable/username"
-                android:paddingLeft="10dp"
-                android:drawablePadding="10dp"
-                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
                 android:textSize="20sp"
+                android:hint="First Name"
+                android:layout_below="@+id/gap"
+                android:paddingLeft="35dp"
+
 
                 />
-            <TextView
-                android:id="@+id/userid"
-                android:layout_width="500dp"
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="170dp"
                 android:layout_height="40dp"
-                android:background="@drawable/button_round"
-                android:drawableLeft="@drawable/password"
-
-                android:paddingLeft="10dp"
-                android:drawablePadding="10dp"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@+id/username"
-                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edit_text_bg"
+                android:layout_toRightOf="@+id/firstname"
+                android:layout_below="@+id/gap"
+                android:hint="Last Name"
                 android:textSize="20sp"
+                android:layout_marginLeft="40dp"
+                android:paddingLeft="35dp"
 
                 />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/firstname"
+                android:hint="Enter Your Mail Address"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="80dp"
+
+                />
+
+
             <TextView
                 android:id="@+id/check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/userid"
+                android:layout_below="@+id/mail"
                 android:layout_marginTop="20dp"
                 android:text="Select your Department"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -143,29 +187,103 @@
 
 
 
-
-            <TimePicker
-                android:id="@+id/timePicker1"
-                android:layout_below="@id/radioGrp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <DatePicker
-                android:id="@+id/datePicker1"
-                android:layout_below="@id/timePicker1"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/genderText"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGrp"
+                android:layout_marginTop="20dp"
+                android:text="Gender"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_centerHorizontal="true"
+
+                />
+
+            <RadioGroup
+                android:layout_below="@id/genderText"
+                android:id="@+id/radioGnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+
+
+                />
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGnd"
+                android:layout_marginTop="20dp"
+                android:hint="EnterBirthDate"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:paddingLeft="10dp"
+
+
+                />
+
+
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text_bg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:hint="ID"
+                android:paddingLeft="58dp"
+                android:layout_below="@+id/radioGnd"
+                android:layout_toRightOf="@id/tvDate"
+
+
+
+                />
+            <EditText
+                android:id="@+id/confirmid"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text_bg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:hint="Confirm ID"
+                android:paddingLeft="16dp"
+                android:layout_below="@+id/radioGnd"
+                android:layout_toRightOf="@id/id"
+
                 />
 
 
             <Button
                 android:id="@+id/back"
-                android:layout_below="@+id/datePicker1"
+                android:layout_below="@+id/tvDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Back"
                 android:onClick="Back"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_cp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
 
 
                 />
@@ -173,15 +291,19 @@
             <Button
                 android:id="@+id/proceed"
                 android:layout_toRightOf="@+id/back"
-                android:layout_below="@+id/datePicker1"
-                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvDate"
+                android:layout_width="258dp"
                 android:layout_height="wrap_content"
-                android:text="Proceed"
+                android:text="Creat Acount"
                 android:onClick="Proceed"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_cp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
 
 
                 />
+
+
 
 
 

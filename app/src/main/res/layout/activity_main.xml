@@ -78,14 +78,14 @@
         android:text="Sign In With Your ID"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="210dp"
         android:layout_marginBottom="10dp"/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:orientation="vertical">
         <EditText
             android:id="@+id/userIdText"
@@ -107,13 +107,26 @@
             android:layout_marginTop="10dp"
              />
         <Button
-            android:id="@+id/loginButton"
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:onClick="login"
+        android:background="@drawable/custom_edit_text_bg"
+
+
+        />
+
+        <Button
+            android:id="@+id/signupbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="Login"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
             android:textStyle="bold"
-            android:onClick="login"
+            android:onClick="signup"
             android:background="@drawable/custom_edit_text_bg"
 
 

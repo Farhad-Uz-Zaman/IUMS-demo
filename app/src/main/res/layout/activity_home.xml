@@ -16,15 +16,10 @@
     android:layout_width="130dp"
     android:layout_height="match_parent">
 
-<TextView
+<ImageView
     android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_marginLeft="10dp"
-    android:text="AUST"
-    android:textSize="45dp"
-    android:textStyle="bold"
-    android:layout_centerHorizontal="true"
-
+    android:layout_height="165dp"
+    android:src="@drawable/austlogo"
 
     />
 
@@ -49,6 +44,7 @@
         android:layout_height="40dp"
         android:onClick="Result"
         android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginTop="5dp"
 
 
         />
@@ -62,6 +58,7 @@
         android:onClick="Logout"
         android:text="LogOut"
         android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginBottom="10dp"
         />
 
 

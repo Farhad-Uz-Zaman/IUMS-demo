@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
         String username=userIDText.getText().toString();
         String userid=editText.getText().toString();
 
-        Intent loginIntent=new Intent(MainActivity.this,SecondActivity.class) ;
+        Intent loginIntent=new Intent(MainActivity.this,HomeActivity.class) ;
         loginIntent.putExtra("name",username);
         loginIntent.putExtra("id",userid);
 
@@ -48,6 +48,22 @@ public class MainActivity extends AppCompatActivity  {
 
 
     }
+
+
+
+    public void signup(View v){
+        String username=userIDText.getText().toString();
+        String userid=editText.getText().toString();
+
+        Intent signupIntent=new Intent(MainActivity.this,SecondActivity.class) ;
+        signupIntent.putExtra("name",username);
+        signupIntent.putExtra("id",userid);
+
+        startActivity(signupIntent);
+
+
+    }
+
 
 
     public void aust3id(View v){
