@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f3b52"
+    android:background="#E6C290"
     android:orientation="horizontal"
     tools:context=".HomeActivity">
 
@@ -12,7 +12,7 @@
 
 <RelativeLayout
     android:id="@+id/sideRelative"
-    android:background="#108897"
+    android:background="#E74E4E"
     android:layout_width="130dp"
     android:layout_height="match_parent">
 
@@ -27,9 +27,11 @@
     <Button
         android:id="@+id/profile"
         android:layout_width="match_parent"
+        android:layout_above="@+id/result"
         android:layout_height="40dp"
         android:text="Profile"
-        android:layout_centerVertical="true"
+        android:textColor="#000000"
+
         android:onClick="Profile"
         android:background="@drawable/custom_edit_text_cp"
 
@@ -38,16 +40,46 @@
 
     <Button
         android:id="@+id/result"
-        android:layout_below="@+id/profile"
+        android:layout_centerVertical="true"
         android:text="Result"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="Result"
         android:background="@drawable/custom_edit_text_cp"
         android:layout_marginTop="5dp"
-
+        android:textColor="#000000"
 
         />
+
+    <Button
+        android:id="@+id/payments"
+        android:layout_below="@+id/result"
+        android:text="PAYMENTS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="Payments"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+
+        />
+
+    <Button
+        android:id="@+id/semfee"
+        android:layout_below="@+id/payments"
+        android:text="Semester Fee"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="SemFee"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+
+        />
+
+
+
+
 
     <Button
         android:id="@+id/logout"
@@ -59,6 +91,7 @@
         android:text="LogOut"
         android:background="@drawable/custom_edit_text_cp"
         android:layout_marginBottom="10dp"
+        android:textColor="#000000"
         />
 
 

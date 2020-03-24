@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f3b52"
+    android:background="#E6C290"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -20,7 +20,7 @@
                 android:id="@+id/rlayout"
                 android:layout_width="500dp"
                 android:layout_height="60dp"
-                android:background="#0dd"
+                android:background="#E74E4E"
 
                 >
 
@@ -50,7 +50,7 @@
                 android:id="@+id/firstname"
                 android:layout_width="170dp"
                 android:layout_height="40dp"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_bg_new2"
                 android:layout_marginLeft="15dp"
                 android:textSize="20sp"
                 android:hint="First Name"
@@ -63,7 +63,7 @@
                 android:id="@+id/lastname"
                 android:layout_width="170dp"
                 android:layout_height="40dp"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_bg_new2"
                 android:layout_toRightOf="@+id/firstname"
                 android:layout_below="@+id/gap"
                 android:hint="Last Name"
@@ -77,7 +77,7 @@
                 android:id="@+id/mail"
                 android:layout_width="380dp"
                 android:layout_height="40dp"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_bg_new2"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/firstname"
                 android:hint="Enter Your Mail Address"
@@ -90,13 +90,16 @@
 
             <TextView
                 android:id="@+id/check"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:layout_below="@+id/mail"
                 android:layout_marginTop="20dp"
                 android:text="Select your Department"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:background="#EE6C43"
 
                 />
             <CheckBox
@@ -135,13 +138,17 @@
 
             <TextView
                 android:id="@+id/radioTxt"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:layout_below="@+id/me"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="35dp"
+
                 android:text="Select your Semester"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:background="#EE6C43"
 
                 />
 
@@ -189,13 +196,16 @@
 
             <TextView
                 android:id="@+id/genderText"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/radioGrp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="5dp"
                 android:text="Gender"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:background="#EE6C43"
 
                 />
 
@@ -233,9 +243,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/radioGnd"
                 android:layout_marginTop="20dp"
-                android:hint="EnterBirthDate"
+                android:hint="  Birth  Date  "
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:paddingLeft="10dp"
+
+                android:background="@drawable/custom_edit_text_bg_new"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="center"
+
 
 
                 />
@@ -246,14 +260,16 @@
                 android:id="@+id/id"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_bg_new2"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="15dp"
                 android:textSize="20sp"
                 android:hint="ID"
-                android:paddingLeft="58dp"
                 android:layout_below="@+id/radioGnd"
                 android:layout_toRightOf="@id/tvDate"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:ems="10"
 
 
 
@@ -262,14 +278,16 @@
                 android:id="@+id/confirmid"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
-                android:background="@drawable/custom_edit_text_bg"
+                android:background="@drawable/custom_edit_text_bg_new2"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="21dp"
                 android:textSize="20sp"
                 android:hint="Confirm ID"
-                android:paddingLeft="16dp"
+                android:textAlignment="center"
                 android:layout_below="@+id/radioGnd"
                 android:layout_toRightOf="@id/id"
+                android:inputType="numberDecimal"
+                android:ems="10"
 
                 />
 
@@ -284,7 +302,7 @@
                 android:background="@drawable/custom_edit_text_cp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="30dp"
-
+                android:textColor="#000000"
 
                 />
 
@@ -299,7 +317,7 @@
                 android:background="@drawable/custom_edit_text_cp"
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="30dp"
-
+                android:textColor="#000000"
 
                 />
 

@@ -68,13 +68,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingLeft="5dp"
-    android:background="#0f3b52">
+    android:background="#E6C290">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/colorBlack"
+        android:textColor="#F5021E"
         android:text="Sign In With Your ID"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -91,20 +91,26 @@
             android:id="@+id/userIdText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/custom_edit_text_bg"
+            android:background="@drawable/custom_edit_text_bg_new"
             android:drawableLeft="@drawable/username"
             android:textColor="@color/colorB"
             android:hint="@string/userName"
+            android:paddingLeft="6dp"
+            android:layout_marginRight="5dp"
             />
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorB"
-            android:background="@drawable/button_round"
+            android:background="@drawable/custom_edit_text_bg_new"
             android:drawableLeft="@drawable/password"
-            android:hint="@string/userID"
+            android:hint=" Enter ID"
             android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_marginRight="5dp"
+
              />
         <Button
         android:id="@+id/loginButton"
@@ -114,7 +120,8 @@
         android:text="Login"
         android:textStyle="bold"
         android:onClick="login"
-        android:background="@drawable/custom_edit_text_bg"
+        android:background="@drawable/button_round_new"
+            android:layout_marginRight="5dp"
 
 
         />
@@ -127,8 +134,8 @@
             android:text="Sign Up"
             android:textStyle="bold"
             android:onClick="signup"
-            android:background="@drawable/custom_edit_text_bg"
-
+            android:background="@drawable/button_round_new"
+            android:layout_marginRight="5dp"
 
             />
 

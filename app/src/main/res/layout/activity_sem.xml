@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6C290"
+    android:orientation="vertical"
+    tools:context=".SemActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Semester Fees"
+        android:textColor="#F5021E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text="You have been enrolled in Fall 2019 semester"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_edit_text_bg_new2"
+        android:textAlignment="center"
+        android:paddingTop="6dp"
+
+
+        />
+
+
+
+   <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/table2"
+        android:layout_below="@+id/table">
+
+
+        <TableRow
+            android:background="#2697F0" >
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Name"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Amount"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Applied"
+                android:textSize="16sp" />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Status    "
+                android:layout_height="30dp"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#F74646" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Establishment fee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="22750"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2-3-20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VERIFIED"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:background="#6D26F0" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Tuition fee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="35750"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2-3-20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VERIFIED"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:background="#5D70DB" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Laboratory fee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="13000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2-3-20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VERIFIED"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#E76D46" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Admisssion fee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="8900"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2-3-20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VERIFIED"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:background="#4E7596" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Transportation Fee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="1500
+"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2-3-20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VERIFIED"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+
+
+<TableRow
+    android:background="#375EEE"
+
+
+    >
+
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Total"
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="81900/="
+        android:textSize="16sp" />
+
+
+
+
+</TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/back"
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Back"
+        android:onClick="Back"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginTop="225dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+
+
+        />
+
+
+
+
+
+</LinearLayout>

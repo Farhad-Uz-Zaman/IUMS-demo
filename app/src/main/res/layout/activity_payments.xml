@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6C290"
+    tools:context=".PaymentsActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Payments"
+        android:textColor="#F5021E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fall, 2019 payments"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_marginTop="80dp"
+    android:textSize="18sp"
+    android:layout_marginLeft="5dp"
+
+
+    />
+
+    <TableLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+
+
+
+        <TableRow
+
+
+            android:background="#109DAC"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="S/N"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="App.Date"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Pay Date"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Amount"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Status     "
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+
+
+            android:background="#F14343"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="1"
+                android:layout_height="30dp"
+
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="02-03-2020"
+                android:layout_height="30dp"
+
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="03-03-2020"
+                android:layout_height="30dp"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="81,900"
+                android:layout_height="30dp"
+
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="COMPL    "
+                android:layout_height="30dp"
+
+
+
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Verified Payments :81,900.00"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fall, 2019 payments"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+
+
+        />
+
+
+
+    <TableLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+
+
+
+        <TableRow
+
+
+            android:background="#109DAC"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="S/N"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="App.Date"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Pay Date"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Amount"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="Status     "
+                android:layout_height="30dp"
+                android:textStyle="bold"
+
+
+                />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+
+
+            android:background="#F14343"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="1"
+                android:layout_height="30dp"
+
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="27-08-2019"
+                android:layout_height="30dp"
+
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="23-07-2019"
+                android:layout_height="30dp"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="100.00"
+                android:layout_height="30dp"
+
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="EXP    "
+                android:layout_height="30dp"
+
+
+
+                />
+
+        </TableRow>
+
+
+        <TableRow
+
+
+            android:background="#3862CE"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="2"
+                android:layout_height="30dp"
+
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="27-08-2019"
+                android:layout_height="30dp"
+
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="23-07-2019"
+                android:layout_height="30dp"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="100.00"
+                android:layout_height="30dp"
+
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="EXP    "
+                android:layout_height="30dp"
+
+
+
+                />
+
+        </TableRow>
+
+
+        <TableRow
+
+
+            android:background="#098377"
+            >
+
+
+            <TextView
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="3"
+                android:layout_height="30dp"
+
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="23-07-2019"
+                android:layout_height="30dp"
+
+
+                />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="23-07-2019"
+                android:layout_height="30dp"
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="80,400"
+                android:layout_height="30dp"
+
+
+
+                />
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:text="COMPL    "
+                android:layout_height="30dp"
+
+
+
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Verified Payments :80,400.00"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/back"
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Back"
+        android:onClick="Back"
+        android:background="@drawable/custom_edit_text_cp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+
+
+        />
+
+
+
+</LinearLayout>

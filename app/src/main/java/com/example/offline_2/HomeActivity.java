@@ -62,4 +62,25 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(logoutIntent);
     }
 
+
+    public void Payments(View v){
+
+
+        Intent paymentIntent=new Intent(HomeActivity.this,PaymentsActivity.class);
+        paymentIntent.putExtra("name",name);
+        paymentIntent.putExtra("id",userID);
+        startActivity(paymentIntent);
+
+    }
+
+    public void SemFee(View v){
+
+
+        Intent semIntent=new Intent(HomeActivity.this,SemActivity.class);
+        semIntent.putExtra("name",name);
+        semIntent.putExtra("id",userID);
+        startActivity(semIntent);
+
+    }
+
 }
